@@ -4,4 +4,5 @@
 // var welcome="welcome to my game "+ name1;
 // // output
 // alert(welcome);
-
+var btntrans=document.querySelector("#btn-trans");
+console.log(btntrans)
