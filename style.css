@@ -8,4 +8,16 @@
     width:90%;
     height: 10vh;
     padding: 1rem;
+    margin: 1rem;
+}
+.out-lines{
+    font-size: 3vw;
+}
+#out-area{
+    width: 90%;
+    height: 10vh;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid black;
+    border-radius: 1px;
 }
