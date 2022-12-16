@@ -1,12 +1,14 @@
-// // input
-// var name1=prompt("whats your name");
-// // processing
-// var welcome="welcome to my game "+ name1;
-// // output
-// alert(welcome);
-function clickfunc(){
-    console.log("clicked");
+
+var btntranslator=document.querySelector("#btn-trans");
+btntranslator.addEventListener("click",clickCall);
+
+var inArea=document.querySelector("#text-area");
+var outarea=document.querySelector("#out-area");
+
+function clickCall(){
+    console.log("Clicked!")
+    console.log(inArea.value);
+    outarea.innerText=inArea.value;
 }
-var btntrans=document.querySelector("#btn-trans");
-console.log(btntrans);
+
 
