@@ -1,0 +1,10 @@
+.header-resume{
+    background-color: grey;
+    margin: 0vw 0vw 0vw 0vw;
+}
+.header-resume :first-child p{
+    margin:0vw 0vw 0vw 0vw;
+}
+.main{
+    display: flex;
+}

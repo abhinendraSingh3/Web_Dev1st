@@ -28,11 +28,16 @@ function clickCall(){
 //     alert("something broke down");
 // })
 }
-fetch('https://api.funtranslations.com/translate/minion.json')
+fetch('https://kitsu.io/api/edge')
 .then((apidata)=>{
-    console.log(apidata)    
+    console.log(apidata.json())    
 })
-.then((response)=>{console.log(response.content)})
+.then((response)=>{
+    console.log("2nd clicked")
+    console.log(response)})
+.catch((error)=>{
+    console.log("error aagya bhaiya",error);
+})
 
 
 
